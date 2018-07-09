@@ -25,17 +25,17 @@ strong {
 }
 
 em {
-  background-color: #fed031;
-  box-shadow: 15px 15px 32px -10px #d6d6d6;
+  background-color: #fff;
   font-family: Cmunoti, sans-serif;
   font-style: normal;
   cursor: pointer;
 }
 
 em:hover {
-  box-shadow: 15px 15px 32px -10px #a0a0a0;
+  background-color: #fed031;
+  box-shadow: 10px 10px 50px -10px #d6d6d6;
   font-family: Cmunoti, sans-serif;
-  color: #fff;
+  color: #000;
 }
 
 .info-navbar-link {
@@ -986,25 +986,37 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
 
 @font-face {
   font-family: '36b1cc 1 0';
-  src: url('../fonts/36B1CC_1_0.woff2') format('woff2'), url('../fonts/36B1CC_1_0.woff') format('woff'), url('../fonts/36B1CC_1_0.ttf') format('truetype');
+  src: url('../fonts/36B1CC_1_0.woff2') format('woff2'), url('../fonts/36B1CC_1_0.woff2') format('woff2'), url('../fonts/36B1CC_1_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_1_0.woff') format('woff'), url('../fonts/36B1CC_1_0.woff') format('woff'), url('../fonts/36B1CC_1_0.ttf') format('truetype'), url('../fonts/36B1CC_1_0.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: '36b1cc 3 0';
-  src: url('../fonts/36B1CC_3_0.woff2') format('woff2'), url('../fonts/36B1CC_3_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_3_0.woff') format('woff'), url('../fonts/36B1CC_3_0.ttf') format('truetype');
+  src: url('../fonts/36B1CC_3_0.woff2') format('woff2'), url('../fonts/36B1CC_3_0.woff2') format('woff2'), url('../fonts/36B1CC_3_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_3_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_3_0.woff') format('woff'), url('../fonts/36B1CC_3_0.woff') format('woff'), url('../fonts/36B1CC_3_0.ttf') format('truetype'), url('../fonts/36B1CC_3_0.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: '36b1cc 2 0';
-  src: url('../fonts/36B1CC_2_0.woff2') format('woff2'), url('../fonts/36B1CC_2_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_2_0.ttf') format('truetype');
+  src: url('../fonts/36B1CC_2_0.woff2') format('woff2'), url('../fonts/36B1CC_2_0.woff2') format('woff2'), url('../fonts/36B1CC_2_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_2_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_2_0.woff') format('woff'), url('../fonts/36B1CC_2_0.ttf') format('truetype'), url('../fonts/36B1CC_2_0.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: '36b1cc 0 0';
-  src: url('../fonts/36B1CC_0_0.woff') format('woff'), url('../fonts/36B1CC_0_0.ttf') format('truetype');
+  src: url('../fonts/36B1CC_0_0.woff2') format('woff2'), url('../fonts/36B1CC_0_0.eot') format('embedded-opentype'), url('../fonts/36B1CC_0_0.woff') format('woff'), url('../fonts/36B1CC_0_0.woff') format('woff'), url('../fonts/36B1CC_0_0.ttf') format('truetype'), url('../fonts/36B1CC_0_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cmunit webfont';
+  src: url('../fonts/cmunit-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Cmuntt webfont';
+  src: url('../fonts/cmuntt-webfont.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
