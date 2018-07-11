@@ -331,6 +331,10 @@ em:hover {
   display: none;
 }
 
+.project-section.dxdy {
+  display: none;
+}
+
 .top-spacer-section {
   width: 100vw;
   height: 70vh;
