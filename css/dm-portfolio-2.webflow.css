@@ -621,6 +621,16 @@ em:hover {
   text-align: center;
 }
 
+.rich-text-block em {
+  font-family: 'Cmuntt webfont', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rich-text-block h1 {
+  font-weight: 400;
+}
+
 .div-block-11 {
   position: absolute;
   left: 0px;
@@ -804,6 +814,10 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     font-size: 22px;
     line-height: 26px;
   }
+  em {
+    font-style: italic;
+    font-weight: 400;
+  }
   .info-navbar-link {
     float: right;
   }
@@ -947,6 +961,15 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     padding-right: 15px;
     padding-left: 15px;
   }
+  .rich-text-block em {
+    font-family: Cmuntt, sans-serif;
+    font-style: normal;
+  }
+  .embed-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .tablet-footer {
     display: none;
     padding-right: 0px;
@@ -991,6 +1014,9 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     width: 100%;
     padding-right: 0%;
     padding-left: 0%;
+  }
+  .html-embed {
+    width: 50%;
   }
 }
 
