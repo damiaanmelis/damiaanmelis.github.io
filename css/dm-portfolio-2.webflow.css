@@ -523,7 +523,7 @@ em:hover {
   display: -ms-flexbox;
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 500px;
   float: none;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -719,7 +719,7 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     height: 500px;
   }
   .spacer-section {
-    height: 100vh;
+    height: 600px;
   }
   .slide-flex-wrapper {
     display: -webkit-box;
