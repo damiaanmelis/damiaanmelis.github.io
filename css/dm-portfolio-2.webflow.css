@@ -389,7 +389,7 @@ em:hover {
   position: relative;
   z-index: 35;
   width: 100vw;
-  height: 70vh;
+  height: 500px;
   background-color: #fff;
   color: #fff;
 }
@@ -719,7 +719,7 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     height: 500px;
   }
   .spacer-section {
-    height: 600px;
+    height: 550px;
   }
   .slide-flex-wrapper {
     display: -webkit-box;
@@ -858,6 +858,9 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     padding-right: 0%;
     padding-left: 0%;
   }
+  .project-section.dxdy {
+    display: none;
+  }
   .slider {
     height: 300px;
   }
@@ -877,6 +880,9 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     padding-top: 17px;
     padding-right: 0%;
     padding-left: 0%;
+  }
+  .slide-flex-wrapper.small {
+    width: 65%;
   }
   .text-block-2 {
     display: none;
