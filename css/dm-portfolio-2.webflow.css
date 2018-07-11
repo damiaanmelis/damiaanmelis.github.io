@@ -306,7 +306,7 @@ em:hover {
   color: #000;
   font-size: 20px;
   line-height: 24px;
-  font-style: normal;
+  font-style: italic;
   text-decoration: none;
   cursor: pointer;
 }
@@ -622,8 +622,8 @@ em:hover {
 }
 
 .rich-text-block em {
-  font-family: 'Cmuntt webfont', sans-serif;
-  font-style: normal;
+  font-family: Cmunoti, sans-serif;
+  font-style: italic;
   font-weight: 400;
 }
 
