@@ -962,8 +962,8 @@ html.w-mod-js *[data-ix="navbar-hide-on-load"] {
     padding-left: 15px;
   }
   .rich-text-block em {
-    font-family: Cmuntt, sans-serif;
-    font-style: normal;
+    font-family: Cmunoti, sans-serif;
+    font-style: italic;
   }
   .embed-wrapper {
     display: block;
